@@ -1,19 +1,24 @@
 //Problem 1: Input and Display Array
 
-#include<iostream>
+
+
+#include <iostream>
 using namespace std;
 
-int main(){
+int main() {
+    int arr[5];   // Declare array of size 5
 
-    int number[5];
-    cout<<"enter 5 numbers;";
-    for(int i=0; i<5; i++){
-       cin>>number[i];
+    // Taking input from user
+    cout << "Enter 5 numbers: " << endl;
+    for(int i = 0; i < 5; i++) {
+        cin >> arr[i];
     }
 
-
-    for(int i=0; i<5; i++){
-        cout<<
-        cout<<number[i];
+    // Displaying the array elements
+    cout << "The elements in the array are: " << endl;
+    for(int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
     }
+
+    return 0;
 }
