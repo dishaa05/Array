@@ -10,7 +10,7 @@ int main() {
         cin >> array[i];
     }
 
-    cout << "Index:" << endl;
+    cout << "Index :" << endl;
     for(int i=0; i<5; i++) {
         cout << "Index " << i << ": " << array[i] << endl;
     }
